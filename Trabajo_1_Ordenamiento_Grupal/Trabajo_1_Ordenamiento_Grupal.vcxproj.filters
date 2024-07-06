@@ -25,6 +25,15 @@
     <Filter Include="Archivos de origen\MenuListaSimple">
       <UniqueIdentifier>{6a2c0ba1-593b-45da-89fb-3cd65eb33ed3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\MenuListaDoble">
+      <UniqueIdentifier>{3d51567a-515b-4faa-a0f3-c63316bba7ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\MenuListaCircular">
+      <UniqueIdentifier>{134ac82b-1120-49c1-b8fc-ab6455c7ed95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\MenuListaCircularDoble">
+      <UniqueIdentifier>{a77914b4-6027-428f-bce1-3e533b216cf3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Persona.h">
