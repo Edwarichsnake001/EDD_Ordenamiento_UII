@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Hola.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Persona.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Hola.cpp" />
+    <ClCompile Include="ListaSimple.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Persona.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
