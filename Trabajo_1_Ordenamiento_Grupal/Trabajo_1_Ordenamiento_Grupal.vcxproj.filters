@@ -15,7 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+
+    <ClInclude Include="Hola.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hola.cpp">
+
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
