@@ -1,14 +1,6 @@
-#include <iostream>
-
-
-using namespace std; 
+#include "MenuPrincipalGeneral.h"
 
 int main() {
-
-	cout<<"HOla" ;
-
-	cout << "otro ejemplo";
-
-	cout << "ejemplo 3";
-	return 0;
+    MenuPrincipalGeneral();
+    return 0;
 }

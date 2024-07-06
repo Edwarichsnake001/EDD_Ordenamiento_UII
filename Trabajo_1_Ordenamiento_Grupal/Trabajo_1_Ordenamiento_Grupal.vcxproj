@@ -127,10 +127,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Hola.h" />
+    <ClInclude Include="menuBurbuja.h" />
+    <ClInclude Include="ListaCircular.h" />
+    <ClInclude Include="ListaCircularDoble.h" />
+    <ClInclude Include="ListaDoble.h" />
+    <ClInclude Include="ListaSimple.h" />
+    <ClInclude Include="menuDistribucion.h" />
+    <ClInclude Include="menuIntercambio.h" />
+    <ClInclude Include="MenuPrincipalGeneral.h" />
+    <ClInclude Include="MenuPrincipalListaSimple.h" />
+    <ClInclude Include="menuQuickSort.h" />
+    <ClInclude Include="menuRadix.h" />
+    <ClInclude Include="menuShellSort.h" />
+    <ClInclude Include="Persona.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Hola.cpp" />
+    <ClCompile Include="menuBurbuja.cpp" />
+    <ClCompile Include="ListaCircular.cpp" />
+    <ClCompile Include="ListaCircularDoble.cpp" />
+    <ClCompile Include="ListaDoble.cpp" />
+    <ClCompile Include="ListaSimple.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="menuDistribucion.cpp" />
+    <ClCompile Include="menuIntercambio.cpp" />
+    <ClCompile Include="MenuPrincipalGeneral.cpp" />
+    <ClCompile Include="MenuPrincipalListaSimple.cpp" />
+    <ClCompile Include="menuQuickSort.cpp" />
+    <ClCompile Include="menuRadix.cpp" />
+    <ClCompile Include="menuShellSort.cpp" />
+    <ClCompile Include="Persona.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
