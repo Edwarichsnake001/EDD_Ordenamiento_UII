@@ -13,17 +13,102 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de encabezado\Listas">
+      <UniqueIdentifier>{938002f9-8bea-4f35-bce2-b1a969790a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\MenusListaSimple">
+      <UniqueIdentifier>{2b18dea3-2193-4497-b7c9-f68814a2576f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Listas">
+      <UniqueIdentifier>{6434d2b9-034b-473f-872a-572c18f51cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\MenuListaSimple">
+      <UniqueIdentifier>{6a2c0ba1-593b-45da-89fb-3cd65eb33ed3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-
-    <ClInclude Include="Hola.h">
+    <ClInclude Include="Persona.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaCircular.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaCircularDoble.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDoble.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaSimple.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="menuBurbuja.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="menuDistribucion.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="menuIntercambio.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPrincipalListaSimple.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="menuQuickSort.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="menuRadix.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="menuShellSort.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPrincipalGeneral.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Hola.cpp">
-
+    <ClCompile Include="main.cpp">
       <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPrincipalGeneral.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Persona.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaCircular.cpp">
+      <Filter>Archivos de origen\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaCircularDoble.cpp">
+      <Filter>Archivos de origen\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaDoble.cpp">
+      <Filter>Archivos de origen\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaSimple.cpp">
+      <Filter>Archivos de origen\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="menuDistribucion.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="menuBurbuja.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="menuIntercambio.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="menuRadix.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="menuQuickSort.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="menuShellSort.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPrincipalListaSimple.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
