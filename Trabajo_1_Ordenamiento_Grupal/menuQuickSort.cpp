@@ -1,5 +1,5 @@
 #include <iostream>
-#include "menuQuickSort.h"
+#include "menuQuickSortLS.h"
 using namespace std;
 
 void menuQuickSort() {

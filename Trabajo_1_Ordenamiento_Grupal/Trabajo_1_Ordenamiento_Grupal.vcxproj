@@ -127,18 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="menuBurbuja.h" />
+    <ClInclude Include="menuBurbujaLS.h" />
     <ClInclude Include="ListaCircular.h" />
     <ClInclude Include="ListaCircularDoble.h" />
     <ClInclude Include="ListaDoble.h" />
     <ClInclude Include="ListaSimple.h" />
-    <ClInclude Include="menuDistribucion.h" />
-    <ClInclude Include="menuIntercambio.h" />
+    <ClInclude Include="menuDistribucionLS.h" />
+    <ClInclude Include="menuIntercambioLS.h" />
     <ClInclude Include="MenuPrincipalGeneral.h" />
     <ClInclude Include="MenuPrincipalListaSimple.h" />
-    <ClInclude Include="menuQuickSort.h" />
-    <ClInclude Include="menuRadix.h" />
-    <ClInclude Include="menuShellSort.h" />
+    <ClInclude Include="menuQuickSortLS.h" />
+    <ClInclude Include="menuRadixLS.h" />
+    <ClInclude Include="menuShellSortLS.h" />
     <ClInclude Include="Persona.h" />
   </ItemGroup>
   <ItemGroup>

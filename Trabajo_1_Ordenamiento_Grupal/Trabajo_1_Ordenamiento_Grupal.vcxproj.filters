@@ -51,25 +51,25 @@
     <ClInclude Include="ListaSimple.h">
       <Filter>Archivos de encabezado\Listas</Filter>
     </ClInclude>
-    <ClInclude Include="menuBurbuja.h">
+    <ClInclude Include="menuBurbujaLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
-    <ClInclude Include="menuDistribucion.h">
+    <ClInclude Include="menuDistribucionLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
-    <ClInclude Include="menuIntercambio.h">
+    <ClInclude Include="menuIntercambioLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
     <ClInclude Include="MenuPrincipalListaSimple.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
-    <ClInclude Include="menuQuickSort.h">
+    <ClInclude Include="menuQuickSortLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
-    <ClInclude Include="menuRadix.h">
+    <ClInclude Include="menuRadixLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
-    <ClInclude Include="menuShellSort.h">
+    <ClInclude Include="menuShellSortLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
     <ClInclude Include="MenuPrincipalGeneral.h">

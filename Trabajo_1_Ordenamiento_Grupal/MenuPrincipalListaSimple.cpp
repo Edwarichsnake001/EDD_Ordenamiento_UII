@@ -2,12 +2,12 @@
 #include <conio.h>
 #include <windows.h>
 #include "MenuPrincipalListaSimple.h"
-#include "menuIntercambio.h"
-#include "menuBurbuja.h"
-#include "menuQuickSort.h"
-#include "menuShellSort.h"
-#include "menuDistribucion.h"
-#include "menuRadix.h"
+#include "menuIntercambioLS.h"
+#include "menuBurbujaLS.h"
+#include "menuQuickSortLS.h"
+#include "menuShellSortLS.h"
+#include "menuDistribucionLS.h"
+#include "menuRadixLS.h"
 
 enum Opciones {
     INTERCAMBIO,
