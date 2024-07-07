@@ -37,6 +37,12 @@
     <Filter Include="Archivos de origen\MenuListaDoble">
       <UniqueIdentifier>{3d51567a-515b-4faa-a0f3-c63316bba7ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\MenuListaCircular">
+      <UniqueIdentifier>{efd86557-eb8e-4824-9237-8b49977426d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\MenuListaCircularDoble">
+      <UniqueIdentifier>{e9cb0762-0123-44dd-ae6d-35cea07462ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Persona.h">
@@ -98,6 +104,48 @@
     </ClInclude>
     <ClInclude Include="MenuListasDobles\menuShellSortLD.h">
       <Filter>Archivos de encabezado\MenuListaDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCirculares\menuBurbujaLC.h">
+      <Filter>Archivos de encabezado\MenuListaCircular</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCirculares\menuDistribucionLC.h">
+      <Filter>Archivos de encabezado\MenuListaCircular</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCirculares\menuIntercambioLC.h">
+      <Filter>Archivos de encabezado\MenuListaCircular</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCirculares\menuQuickSortLC.h">
+      <Filter>Archivos de encabezado\MenuListaCircular</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCirculares\menuRadixLC.h">
+      <Filter>Archivos de encabezado\MenuListaCircular</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCirculares\menuShellSortLC.h">
+      <Filter>Archivos de encabezado\MenuListaCircular</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCircularesDobles\menuDistribucionLCD.h">
+      <Filter>Archivos de encabezado\MenuListaCircularDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCircularesDobles\menuBurbujaLCD.h">
+      <Filter>Archivos de encabezado\MenuListaCircularDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCircularesDobles\menuIntercambioLCD.h">
+      <Filter>Archivos de encabezado\MenuListaCircularDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCircularesDobles\menuQuickSortLCD.h">
+      <Filter>Archivos de encabezado\MenuListaCircularDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCircularesDobles\menuRadixLCD.h">
+      <Filter>Archivos de encabezado\MenuListaCircularDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCircularesDobles\menuShellSortLCD.h">
+      <Filter>Archivos de encabezado\MenuListaCircularDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCirculares\MenuPrincipalListaCircular.h">
+      <Filter>Archivos de encabezado\MenuListaCircular</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasCircularesDobles\MenuPrincipalListaCircularDoble.h">
+      <Filter>Archivos de encabezado\MenuListaCircularDoble</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +211,48 @@
     </ClCompile>
     <ClCompile Include="MenuListasDobles\menuShellSortLD.cpp">
       <Filter>Archivos de origen\MenuListaDoble</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCircularesDobles\menuBurbujaLCD.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCircularesDobles\menuDistribucionLCD.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCircularesDobles\menuIntercambioLCD.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCircularesDobles\MenuPrincipalListaCircularDoble.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCircularesDobles\menuQuickSortLCD.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCircularesDobles\menuRadixLCD.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCircularesDobles\menuShellSortLCD.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCirculares\menuBurbujaLC.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCirculares\menuDistribucionLC.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCirculares\menuIntercambioLC.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCirculares\MenuPrincipalListaCircular.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCirculares\menuQuickSortLC.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCirculares\menuRadixLC.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasCirculares\menuShellSortLC.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
