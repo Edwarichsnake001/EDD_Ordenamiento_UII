@@ -4,6 +4,7 @@
 #include "MenuPrincipalGeneral.h"
 #include "MenuListasSimples/MenuPrincipalListaSimple.h"
 #include "MenuListasDobles/MenuPrincipalListaDoble.h"
+#include "MenuListasCirculares/MenuPrincipalListaCircular.h"
 
 
 // Incluye aquí los headers para Lista Doble, Lista Circular, y Lista Circular Doble cuando estén disponibles.
@@ -67,7 +68,7 @@ void MenuPrincipalGeneral() {
                 MenuPrincipalListaDoble();
                 break;
             case LISTA_CIRCULAR:
-                // Llamar a la función correspondiente para Lista Circular
+                MenuPrincipalListaCircular();
                 break;
             case LISTA_CIRCULAR_DOBLE:
                 // Llamar a la función correspondiente para Lista Circular Doble
