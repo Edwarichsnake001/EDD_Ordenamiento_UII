@@ -5,6 +5,7 @@
 #include "MenuListasSimples/MenuPrincipalListaSimple.h"
 #include "MenuListasDobles/MenuPrincipalListaDoble.h"
 #include "MenuListasCirculares/MenuPrincipalListaCircular.h"
+#include "MenuListasCircularesDobles/MenuPrincipalListaCircularDoble.h"
 // Incluye aquí los headers para Lista Circular Doble cuando esté disponible.
 
 enum Opciones {
@@ -31,7 +32,7 @@ void mostrarMenuGeneral(int opcion) {
         "Salir"
     };
 
-    std::cout << "Menu Principal General\n\n";
+    std::cout << "Menu Lista Doble Circular\n\n";
     for (int i = 0; i < NUM_OPCIONES; ++i) {
         if (i == opcion) {
             setConsole1Color(FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_BLUE); // Cambiar color
@@ -71,8 +72,7 @@ void MenuPrincipalGeneral() {
                 MenuPrincipalListaCircular();
                 break;
             case LISTA_CIRCULAR_DOBLE:
-                // Llamar a la función correspondiente para Lista Circular Doble
-                break;
+                MenuPrincipalListaCircularDoble();
             case SALIR:
                 continuar = false;
                 break;

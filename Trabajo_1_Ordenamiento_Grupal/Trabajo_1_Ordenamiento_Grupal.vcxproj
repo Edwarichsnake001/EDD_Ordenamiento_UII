@@ -131,6 +131,13 @@
     <ClInclude Include="Listas\ListaCircularDoble.h" />
     <ClInclude Include="Listas\ListaDoble.h" />
     <ClInclude Include="Listas\ListaSimple.h" />
+    <ClInclude Include="MenuListasCircularesDobles\menuBurbujaLCD.h" />
+    <ClInclude Include="MenuListasCircularesDobles\menuDistribucionLCD.h" />
+    <ClInclude Include="MenuListasCircularesDobles\menuIntercambioLCD.h" />
+    <ClInclude Include="MenuListasCircularesDobles\MenuPrincipalListaCircularDoble.h" />
+    <ClInclude Include="MenuListasCircularesDobles\menuQuickSortLCD.h" />
+    <ClInclude Include="MenuListasCircularesDobles\menuRadixLCD.h" />
+    <ClInclude Include="MenuListasCircularesDobles\menuShellSortLCD.h" />
     <ClInclude Include="MenuListasCirculares\menuBurbujaLC.h" />
     <ClInclude Include="MenuListasCirculares\menuDistribucionLC.h" />
     <ClInclude Include="MenuListasCirculares\menuIntercambioLC.h" />
@@ -161,6 +168,13 @@
     <ClCompile Include="Listas\ListaDoble.cpp" />
     <ClCompile Include="Listas\ListaSimple.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuListasCircularesDobles\menuBurbujaLCD.cpp" />
+    <ClCompile Include="MenuListasCircularesDobles\menuDistribucionLCD.cpp" />
+    <ClCompile Include="MenuListasCircularesDobles\menuIntercambioLCD.cpp" />
+    <ClCompile Include="MenuListasCircularesDobles\MenuPrincipalListaCircularDoble.cpp" />
+    <ClCompile Include="MenuListasCircularesDobles\menuQuickSortLCD.cpp" />
+    <ClCompile Include="MenuListasCircularesDobles\menuRadixLCD.cpp" />
+    <ClCompile Include="MenuListasCircularesDobles\menuShellSortLCD.cpp" />
     <ClCompile Include="MenuListasCirculares\menuBurbujaLC.cpp" />
     <ClCompile Include="MenuListasCirculares\menuDistribucionLC.cpp" />
     <ClCompile Include="MenuListasCirculares\menuIntercambioLC.cpp" />
