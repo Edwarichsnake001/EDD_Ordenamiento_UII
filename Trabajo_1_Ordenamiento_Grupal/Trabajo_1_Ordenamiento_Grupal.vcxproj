@@ -131,14 +131,14 @@
     <ClInclude Include="Listas\ListaCircularDoble.h" />
     <ClInclude Include="Listas\ListaDoble.h" />
     <ClInclude Include="Listas\ListaSimple.h" />
-    <ClInclude Include="menuBurbujaLS.h" />
-    <ClInclude Include="menuDistribucionLS.h" />
-    <ClInclude Include="menuIntercambioLS.h" />
+    <ClInclude Include="MenuListasSimples\menuBurbujaLS.h" />
+    <ClInclude Include="MenuListasSimples\menuDistribucionLS.h" />
+    <ClInclude Include="MenuListasSimples\menuIntercambioLS.h" />
+    <ClInclude Include="MenuListasSimples\MenuPrincipalListaSimple.h" />
+    <ClInclude Include="MenuListasSimples\menuQuickSortLS.h" />
+    <ClInclude Include="MenuListasSimples\menuRadixLS.h" />
+    <ClInclude Include="MenuListasSimples\menuShellSortLS.h" />
     <ClInclude Include="MenuPrincipalGeneral.h" />
-    <ClInclude Include="MenuPrincipalListaSimple.h" />
-    <ClInclude Include="menuQuickSortLS.h" />
-    <ClInclude Include="menuRadixLS.h" />
-    <ClInclude Include="menuShellSortLS.h" />
     <ClInclude Include="Persona.h" />
   </ItemGroup>
   <ItemGroup>
@@ -146,15 +146,15 @@
     <ClCompile Include="Listas\ListaCircularDoble.cpp" />
     <ClCompile Include="Listas\ListaDoble.cpp" />
     <ClCompile Include="Listas\ListaSimple.cpp" />
-    <ClCompile Include="menuBurbuja.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="menuDistribucion.cpp" />
-    <ClCompile Include="menuIntercambio.cpp" />
+    <ClCompile Include="MenuListasSimples\menuBurbujaLS.cpp" />
+    <ClCompile Include="MenuListasSimples\menuDistribucionLS.cpp" />
+    <ClCompile Include="MenuListasSimples\menuIntercambioLS.cpp" />
+    <ClCompile Include="MenuListasSimples\MenuPrincipalListaSimple.cpp" />
+    <ClCompile Include="MenuListasSimples\menuQuickSortLS.cpp" />
+    <ClCompile Include="MenuListasSimples\menuRadixLS.cpp" />
+    <ClCompile Include="MenuListasSimples\menuShellSortLS.cpp" />
     <ClCompile Include="MenuPrincipalGeneral.cpp" />
-    <ClCompile Include="MenuPrincipalListaSimple.cpp" />
-    <ClCompile Include="menuQuickSort.cpp" />
-    <ClCompile Include="menuRadix.cpp" />
-    <ClCompile Include="menuShellSort.cpp" />
     <ClCompile Include="Persona.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

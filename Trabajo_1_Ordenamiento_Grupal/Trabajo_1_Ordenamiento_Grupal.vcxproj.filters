@@ -39,27 +39,6 @@
     <ClInclude Include="Persona.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="menuBurbujaLS.h">
-      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
-    </ClInclude>
-    <ClInclude Include="menuDistribucionLS.h">
-      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
-    </ClInclude>
-    <ClInclude Include="menuIntercambioLS.h">
-      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
-    </ClInclude>
-    <ClInclude Include="MenuPrincipalListaSimple.h">
-      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
-    </ClInclude>
-    <ClInclude Include="menuQuickSortLS.h">
-      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
-    </ClInclude>
-    <ClInclude Include="menuRadixLS.h">
-      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
-    </ClInclude>
-    <ClInclude Include="menuShellSortLS.h">
-      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
-    </ClInclude>
     <ClInclude Include="MenuPrincipalGeneral.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
@@ -75,29 +54,29 @@
     <ClInclude Include="Listas\ListaSimple.h">
       <Filter>Archivos de encabezado\Listas</Filter>
     </ClInclude>
+    <ClInclude Include="MenuListasSimples\menuBurbujaLS.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasSimples\menuDistribucionLS.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasSimples\menuIntercambioLS.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasSimples\MenuPrincipalListaSimple.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasSimples\menuQuickSortLS.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasSimples\menuRadixLS.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasSimples\menuShellSortLS.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="menuDistribucion.cpp">
-      <Filter>Archivos de origen\MenuListaSimple</Filter>
-    </ClCompile>
-    <ClCompile Include="menuBurbuja.cpp">
-      <Filter>Archivos de origen\MenuListaSimple</Filter>
-    </ClCompile>
-    <ClCompile Include="menuIntercambio.cpp">
-      <Filter>Archivos de origen\MenuListaSimple</Filter>
-    </ClCompile>
-    <ClCompile Include="menuRadix.cpp">
-      <Filter>Archivos de origen\MenuListaSimple</Filter>
-    </ClCompile>
-    <ClCompile Include="menuQuickSort.cpp">
-      <Filter>Archivos de origen\MenuListaSimple</Filter>
-    </ClCompile>
-    <ClCompile Include="menuShellSort.cpp">
-      <Filter>Archivos de origen\MenuListaSimple</Filter>
-    </ClCompile>
-    <ClCompile Include="MenuPrincipalListaSimple.cpp">
-      <Filter>Archivos de origen\MenuListaSimple</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
@@ -118,6 +97,27 @@
     </ClCompile>
     <ClCompile Include="Listas\ListaSimple.cpp">
       <Filter>Archivos de origen\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasSimples\menuBurbujaLS.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasSimples\menuDistribucionLS.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasSimples\menuIntercambioLS.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasSimples\MenuPrincipalListaSimple.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasSimples\menuQuickSortLS.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasSimples\menuRadixLS.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasSimples\menuShellSortLS.cpp">
+      <Filter>Archivos de origen\MenuListaSimple</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
