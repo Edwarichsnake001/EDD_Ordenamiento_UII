@@ -2,9 +2,11 @@
 #include <conio.h>
 #include <windows.h>
 #include "MenuPrincipalGeneral.h"
-#include "MenuListasSimples/MenuPrincipalListaSimple.h"
+#include "MenuListasSimples/MenuPrincipalListaSimple.h
 #include "MenuListasDobles/MenuPrincipalListaDoble.h"
-// Incluye aquí los headers para Lista Doble, Lista Circular, y Lista Circular Doble cuando estén disponibles.
+
+
+// Incluye aquÃ­ los headers para Lista Doble, Lista Circular, y Lista Circular Doble cuando estÃ©n disponibles.
 
 enum Opciones {
     LISTA_SIMPLE,
@@ -65,10 +67,10 @@ void MenuPrincipalGeneral() {
                 MenuPrincipalListaDoble();
                 break;
             case LISTA_CIRCULAR:
-                // Llamar a la función correspondiente para Lista Circular
+                // Llamar a la funciÃ³n correspondiente para Lista Circular
                 break;
             case LISTA_CIRCULAR_DOBLE:
-                // Llamar a la función correspondiente para Lista Circular Doble
+                // Llamar a la funciÃ³n correspondiente para Lista Circular Doble
                 break;
             }
             std::cout << "Presione cualquier tecla para volver al menu principal...";
