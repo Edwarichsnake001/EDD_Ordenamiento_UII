@@ -25,14 +25,17 @@
     <Filter Include="Archivos de origen\MenuListaSimple">
       <UniqueIdentifier>{6a2c0ba1-593b-45da-89fb-3cd65eb33ed3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de origen\MenuListaDoble">
-      <UniqueIdentifier>{3d51567a-515b-4faa-a0f3-c63316bba7ae}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Archivos de origen\MenuListaCircular">
       <UniqueIdentifier>{134ac82b-1120-49c1-b8fc-ab6455c7ed95}</UniqueIdentifier>
     </Filter>
     <Filter Include="Archivos de origen\MenuListaCircularDoble">
       <UniqueIdentifier>{a77914b4-6027-428f-bce1-3e533b216cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\MenuListaDoble">
+      <UniqueIdentifier>{f7ce4d8c-d0c0-4d61-8c63-ca06351128cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\MenuListaDoble">
+      <UniqueIdentifier>{3d51567a-515b-4faa-a0f3-c63316bba7ae}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -63,9 +66,6 @@
     <ClInclude Include="MenuListasSimples\menuIntercambioLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
-    <ClInclude Include="MenuListasSimples\MenuPrincipalListaSimple.h">
-      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
-    </ClInclude>
     <ClInclude Include="MenuListasSimples\menuQuickSortLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
@@ -74,6 +74,30 @@
     </ClInclude>
     <ClInclude Include="MenuListasSimples\menuShellSortLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasSimples\MenuPrincipalListaSimple.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasDobles\menuBurbujaLD.h">
+      <Filter>Archivos de encabezado\MenuListaDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasDobles\menuDistribucionLD.h">
+      <Filter>Archivos de encabezado\MenuListaDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasDobles\menuIntercambioLD.h">
+      <Filter>Archivos de encabezado\MenuListaDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasDobles\MenuPrincipalListaDoble.h">
+      <Filter>Archivos de encabezado\MenuListaDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasDobles\menuQuickSortLD.h">
+      <Filter>Archivos de encabezado\MenuListaDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasDobles\menuRadixLD.h">
+      <Filter>Archivos de encabezado\MenuListaDoble</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasDobles\menuShellSortLD.h">
+      <Filter>Archivos de encabezado\MenuListaDoble</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +142,27 @@
     </ClCompile>
     <ClCompile Include="MenuListasSimples\menuShellSortLS.cpp">
       <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasDobles\menuBurbujaLD.cpp">
+      <Filter>Archivos de origen\MenuListaDoble</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasDobles\menuDistribucionLD.cpp">
+      <Filter>Archivos de origen\MenuListaDoble</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasDobles\menuIntercambioLD.cpp">
+      <Filter>Archivos de origen\MenuListaDoble</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasDobles\MenuPrincipalListaDoble.cpp">
+      <Filter>Archivos de origen\MenuListaDoble</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasDobles\menuQuickSortLD.cpp">
+      <Filter>Archivos de origen\MenuListaDoble</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasDobles\menuRadixLD.cpp">
+      <Filter>Archivos de origen\MenuListaDoble</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuListasDobles\menuShellSortLD.cpp">
+      <Filter>Archivos de origen\MenuListaDoble</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

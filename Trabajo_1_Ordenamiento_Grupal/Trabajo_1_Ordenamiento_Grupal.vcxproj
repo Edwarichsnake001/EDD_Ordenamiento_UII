@@ -131,6 +131,13 @@
     <ClInclude Include="Listas\ListaCircularDoble.h" />
     <ClInclude Include="Listas\ListaDoble.h" />
     <ClInclude Include="Listas\ListaSimple.h" />
+    <ClInclude Include="MenuListasDobles\menuBurbujaLD.h" />
+    <ClInclude Include="MenuListasDobles\menuDistribucionLD.h" />
+    <ClInclude Include="MenuListasDobles\menuIntercambioLD.h" />
+    <ClInclude Include="MenuListasDobles\MenuPrincipalListaDoble.h" />
+    <ClInclude Include="MenuListasDobles\menuQuickSortLD.h" />
+    <ClInclude Include="MenuListasDobles\menuRadixLD.h" />
+    <ClInclude Include="MenuListasDobles\menuShellSortLD.h" />
     <ClInclude Include="MenuListasSimples\menuBurbujaLS.h" />
     <ClInclude Include="MenuListasSimples\menuDistribucionLS.h" />
     <ClInclude Include="MenuListasSimples\menuIntercambioLS.h" />
@@ -147,6 +154,13 @@
     <ClCompile Include="Listas\ListaDoble.cpp" />
     <ClCompile Include="Listas\ListaSimple.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuListasDobles\menuBurbujaLD.cpp" />
+    <ClCompile Include="MenuListasDobles\menuDistribucionLD.cpp" />
+    <ClCompile Include="MenuListasDobles\menuIntercambioLD.cpp" />
+    <ClCompile Include="MenuListasDobles\MenuPrincipalListaDoble.cpp" />
+    <ClCompile Include="MenuListasDobles\menuQuickSortLD.cpp" />
+    <ClCompile Include="MenuListasDobles\menuRadixLD.cpp" />
+    <ClCompile Include="MenuListasDobles\menuShellSortLD.cpp" />
     <ClCompile Include="MenuListasSimples\menuBurbujaLS.cpp" />
     <ClCompile Include="MenuListasSimples\menuDistribucionLS.cpp" />
     <ClCompile Include="MenuListasSimples\menuIntercambioLS.cpp" />
