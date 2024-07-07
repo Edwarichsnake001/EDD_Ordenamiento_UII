@@ -5,7 +5,7 @@
 #include "MenuListasSimples/MenuPrincipalListaSimple.h"
 #include "MenuListasDobles/MenuPrincipalListaDoble.h"
 #include "MenuListasCirculares/MenuPrincipalListaCircular.h"
-#include "MenuListasCircularesDobles/MenuPrincipalListaCircularDoble.h"
+#include "MenuListasCircularesDobles/MenuPrincipalListaCircularDoble.h
 // Incluye aquí los headers para Lista Circular Doble cuando esté disponible.
 
 enum Opciones {
@@ -76,6 +76,13 @@ void MenuPrincipalGeneral() {
             case SALIR:
                 continuar = false;
                 break;
+            case SALIR:
+                continuar = false;
+                break;
+            }
+            if (opcion != SALIR) {
+                std::cout << "Presione cualquier tecla para volver al menu principal...";
+                (void)_getch();  // Almacenar el valor de retorno
             }
             if (opcion != SALIR) {
                 std::cout << "Presione cualquier tecla para volver al menu principal...";
