@@ -4,4 +4,4 @@
 
 void MenuPrincipalListaCircular();
 
-#endif // MENU_PRINCIPAL_LISTA_DOBLE_H
+#endif // MENU_PRINCIPAL_LISTA_CIRCULAR_H

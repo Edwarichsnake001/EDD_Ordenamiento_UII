@@ -17,7 +17,7 @@ enum Opciones {
     NUM_OPCIONES
 };
 
-void setConsole1Color(WORD color) {
+void setConsoleColor(WORD color) {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(hConsole, color);
 }
@@ -32,12 +32,12 @@ void mostrarMenuGeneral(int opcion) {
         "Salir"
     };
 
-    std::cout << "Menu Lista Doble Circular\n\n";
+    std::cout << "Menu \n\n";
     for (int i = 0; i < NUM_OPCIONES; ++i) {
         if (i == opcion) {
-            setConsole1Color(FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_BLUE); // Cambiar color
+            setConsoleColor(FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_BLUE); // Cambiar color
             std::cout << " --> " << opciones[i] << "\n";
-            setConsole1Color(FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE); // Restaurar color
+            setConsoleColor(FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE); // Restaurar color
         }
         else {
             std::cout << "     " << opciones[i] << "\n";
@@ -73,17 +73,12 @@ void MenuPrincipalGeneral() {
                 break;
             case LISTA_CIRCULAR_DOBLE:
                 MenuPrincipalListaCircularDoble();
+                break;
             case SALIR:
                 continuar = false;
                 break;
-          
             }
-          
-            if (opcion != SALIR) {
-                std::cout << "Presione cualquier tecla para volver al menu principal...";
-                (void)_getch();  // Almacenar el valor de retorno
-            }
-            break;
+            
         }
     }
 }

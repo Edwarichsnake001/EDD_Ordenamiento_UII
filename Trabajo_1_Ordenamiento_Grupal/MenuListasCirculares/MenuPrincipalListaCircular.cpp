@@ -37,7 +37,7 @@ void mostrarMenuLC(int opcion) {
         "Regresar"
     };
 
-    std::cout << "Menu Principal Lista Doble\n\n";
+    std::cout << "Menu Principal Lista Circular\n\n";
     for (int i = 0; i < NUM_OPCIONES; ++i) {
         if (i == opcion) {
             setConsole3Color(FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_BLUE); // Cambiar color
@@ -89,11 +89,7 @@ void MenuPrincipalListaCircular() {
                 continuar = false;
                 break;
             }
-            if (opcion != REGRESAR) {
-                std::cout << "Presione cualquier tecla para volver al menu principal...";
-                (void)_getch();  // Almacenar el valor de retorno
-            }
-            break;
+           
         }
     }
 }

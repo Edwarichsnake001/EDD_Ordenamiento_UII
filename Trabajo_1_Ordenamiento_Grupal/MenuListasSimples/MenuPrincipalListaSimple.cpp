@@ -20,12 +20,12 @@ enum Opciones {
     NUM_OPCIONES
 };
 
-void setConsoleColor(WORD color) {
+void setConsole1Color(WORD color) {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(hConsole, color);
 }
 
-void mostrarMenu(int opcion) {
+void mostrarMenuLS(int opcion) {
     system("cls");
     const char* opciones[] = {
         "Intercambio",
@@ -40,9 +40,9 @@ void mostrarMenu(int opcion) {
     std::cout << "Menu Principal Lista Simple\n\n";
     for (int i = 0; i < NUM_OPCIONES; ++i) {
         if (i == opcion) {
-            setConsoleColor(FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_BLUE); // Cambiar color
+            setConsole1Color(FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_BLUE); // Cambiar color
             std::cout << " --> " << opciones[i] << "\n";
-            setConsoleColor(FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE); // Restaurar color
+            setConsole1Color(FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE); // Restaurar color
         }
         else {
             std::cout << "     " << opciones[i] << "\n";
@@ -55,7 +55,7 @@ void MenuPrincipalListaSimple() {
     bool continuar = true;
 
     while (continuar) {
-        mostrarMenu(opcion);
+        mostrarMenuLS(opcion);
 
         int tecla = _getch();
         switch (tecla) {
