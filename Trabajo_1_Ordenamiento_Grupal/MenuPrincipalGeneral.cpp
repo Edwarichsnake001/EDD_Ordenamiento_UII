@@ -2,7 +2,7 @@
 #include <conio.h>
 #include <windows.h>
 #include "MenuPrincipalGeneral.h"
-#include "MenuPrincipalListaSimple.h"
+#include "MenuListasSimples/MenuPrincipalListaSimple.h"
 // Incluye aquí los headers para Lista Doble, Lista Circular, y Lista Circular Doble cuando estén disponibles.
 
 enum Opciones {

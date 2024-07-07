@@ -63,9 +63,6 @@
     <ClInclude Include="MenuListasSimples\menuIntercambioLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
-    <ClInclude Include="MenuListasSimples\MenuPrincipalListaSimple.h">
-      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
-    </ClInclude>
     <ClInclude Include="MenuListasSimples\menuQuickSortLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
@@ -73,6 +70,9 @@
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
     <ClInclude Include="MenuListasSimples\menuShellSortLS.h">
+      <Filter>Archivos de encabezado\MenusListaSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuListasSimples\MenuPrincipalListaSimple.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
   </ItemGroup>
