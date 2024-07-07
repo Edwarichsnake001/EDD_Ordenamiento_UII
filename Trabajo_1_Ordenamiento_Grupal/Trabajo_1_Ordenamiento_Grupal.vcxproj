@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Listas\ListaCircular.h" />
+    <ClInclude Include="Listas\ListaCircularDoble.h" />
+    <ClInclude Include="Listas\ListaDoble.h" />
+    <ClInclude Include="Listas\ListaSimple.h" />
     <ClInclude Include="menuBurbujaLS.h" />
-    <ClInclude Include="ListaCircular.h" />
-    <ClInclude Include="ListaCircularDoble.h" />
-    <ClInclude Include="ListaDoble.h" />
-    <ClInclude Include="ListaSimple.h" />
     <ClInclude Include="menuDistribucionLS.h" />
     <ClInclude Include="menuIntercambioLS.h" />
     <ClInclude Include="MenuPrincipalGeneral.h" />
@@ -142,11 +142,11 @@
     <ClInclude Include="Persona.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Listas\ListaCircular.cpp" />
+    <ClCompile Include="Listas\ListaCircularDoble.cpp" />
+    <ClCompile Include="Listas\ListaDoble.cpp" />
+    <ClCompile Include="Listas\ListaSimple.cpp" />
     <ClCompile Include="menuBurbuja.cpp" />
-    <ClCompile Include="ListaCircular.cpp" />
-    <ClCompile Include="ListaCircularDoble.cpp" />
-    <ClCompile Include="ListaDoble.cpp" />
-    <ClCompile Include="ListaSimple.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="menuDistribucion.cpp" />
     <ClCompile Include="menuIntercambio.cpp" />

@@ -39,18 +39,6 @@
     <ClInclude Include="Persona.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="ListaCircular.h">
-      <Filter>Archivos de encabezado\Listas</Filter>
-    </ClInclude>
-    <ClInclude Include="ListaCircularDoble.h">
-      <Filter>Archivos de encabezado\Listas</Filter>
-    </ClInclude>
-    <ClInclude Include="ListaDoble.h">
-      <Filter>Archivos de encabezado\Listas</Filter>
-    </ClInclude>
-    <ClInclude Include="ListaSimple.h">
-      <Filter>Archivos de encabezado\Listas</Filter>
-    </ClInclude>
     <ClInclude Include="menuBurbujaLS.h">
       <Filter>Archivos de encabezado\MenusListaSimple</Filter>
     </ClInclude>
@@ -75,29 +63,20 @@
     <ClInclude Include="MenuPrincipalGeneral.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="Listas\ListaCircular.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Listas\ListaCircularDoble.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Listas\ListaDoble.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Listas\ListaSimple.h">
+      <Filter>Archivos de encabezado\Listas</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="MenuPrincipalGeneral.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Persona.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="ListaCircular.cpp">
-      <Filter>Archivos de origen\Listas</Filter>
-    </ClCompile>
-    <ClCompile Include="ListaCircularDoble.cpp">
-      <Filter>Archivos de origen\Listas</Filter>
-    </ClCompile>
-    <ClCompile Include="ListaDoble.cpp">
-      <Filter>Archivos de origen\Listas</Filter>
-    </ClCompile>
-    <ClCompile Include="ListaSimple.cpp">
-      <Filter>Archivos de origen\Listas</Filter>
-    </ClCompile>
     <ClCompile Include="menuDistribucion.cpp">
       <Filter>Archivos de origen\MenuListaSimple</Filter>
     </ClCompile>
@@ -118,6 +97,27 @@
     </ClCompile>
     <ClCompile Include="MenuPrincipalListaSimple.cpp">
       <Filter>Archivos de origen\MenuListaSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPrincipalGeneral.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Persona.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Listas\ListaCircular.cpp">
+      <Filter>Archivos de origen\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="Listas\ListaCircularDoble.cpp">
+      <Filter>Archivos de origen\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="Listas\ListaDoble.cpp">
+      <Filter>Archivos de origen\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="Listas\ListaSimple.cpp">
+      <Filter>Archivos de origen\Listas</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
