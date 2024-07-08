@@ -9,5 +9,5 @@ struct Nodo {
     T data;
     Nodo* next;
 
-    Node(const T& value) : data(value), next(nullptr) {}
+    Nodo(const T& value) : data(value), next(nullptr) {}
 };

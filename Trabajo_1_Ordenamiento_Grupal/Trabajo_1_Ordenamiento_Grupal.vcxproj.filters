@@ -147,6 +147,9 @@
     <ClInclude Include="MenuListasCircularesDobles\MenuPrincipalListaCircularDoble.h">
       <Filter>Archivos de encabezado\MenuListaCircularDoble</Filter>
     </ClInclude>
+    <ClInclude Include="Listas\Nodo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
