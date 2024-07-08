@@ -132,6 +132,7 @@
     <ClInclude Include="Listas\ListaDoble.h" />
     <ClInclude Include="Listas\ListaSimple.h" />
     <ClInclude Include="Listas\Nodo.h" />
+    <ClInclude Include="Listas\NodoLCD.h" />
     <ClInclude Include="MenuListasCircularesDobles\menuBurbujaLCD.h" />
     <ClInclude Include="MenuListasCircularesDobles\menuDistribucionLCD.h" />
     <ClInclude Include="MenuListasCircularesDobles\menuIntercambioLCD.h" />
