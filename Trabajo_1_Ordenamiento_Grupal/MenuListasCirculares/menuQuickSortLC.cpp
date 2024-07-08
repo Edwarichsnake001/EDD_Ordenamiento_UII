@@ -87,3 +87,5 @@ void menuQuickSortLC() {
         }
     }
 }
+
+//este comentario es olo para ver  si se actualiza en el quicksort
