@@ -150,7 +150,7 @@
     <ClInclude Include="Listas\Nodo.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Listas\NodoLCD.h">
+    <ClInclude Include="Listas\NodoLD.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
@@ -259,6 +259,9 @@
     </ClCompile>
     <ClCompile Include="MenuListasCircularesDobles\MenuPrincipalListaCircularDoble.cpp">
       <Filter>Archivos de origen\MenuListaCircularDoble</Filter>
+    </ClCompile>
+    <ClCompile Include="Listas\NodoCD.h">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

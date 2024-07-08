@@ -132,7 +132,7 @@
     <ClInclude Include="Listas\ListaDoble.h" />
     <ClInclude Include="Listas\ListaSimple.h" />
     <ClInclude Include="Listas\Nodo.h" />
-    <ClInclude Include="Listas\NodoLCD.h" />
+    <ClInclude Include="Listas\NodoLD.h" />
     <ClInclude Include="MenuListasCircularesDobles\menuBurbujaLCD.h" />
     <ClInclude Include="MenuListasCircularesDobles\menuDistribucionLCD.h" />
     <ClInclude Include="MenuListasCircularesDobles\menuIntercambioLCD.h" />
@@ -169,6 +169,7 @@
     <ClCompile Include="Listas\ListaCircularDoble.cpp" />
     <ClCompile Include="Listas\ListaDoble.cpp" />
     <ClCompile Include="Listas\ListaSimple.cpp" />
+    <ClCompile Include="Listas\NodoCD.h" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MenuListasCircularesDobles\menuBurbujaLCD.cpp" />
     <ClCompile Include="MenuListasCircularesDobles\menuDistribucionLCD.cpp" />
